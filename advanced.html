@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Advanced Search</title>
+  <link rel="stylesheet" href="/assets/styles/styles.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav-container">
+      <div>
+        <img src="/assets/images/logo.png" alt="Google Logo" height="24px" width="74px">
+      </div>
+      <div>
+        <a href="/index.html">Search</a>
+        <a href="/image.html">Images</a>
+      </div>
+    </nav>
+    <div class="header">
+      <label>Advanced Search</label>
+    </div>
+    <div class="line-break"></div>
+    <div class="advanced-container">
+      <form action="https://google.com/search" method="GET">
+        <table class="advanced-table">
+          <tr>
+            <td>
+              <h3 class="heading">
+                Find pages with...
+              </h3>
+            </td>
+            <td></td>
+            <td>
+              <span class="advanced-hint-heading">
+                To do this in the search box.
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td class="advanced-label">
+              <label for="as_q">all these words:</label>
+            </td>
+            <td class="advanced-input">
+              <input type="text" name="as_q" id="as_q" />
+            </td>
+            <td class="advanced-hint">
+              Type the important words:
+              <span>tri-colour rat terrier</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="advanced-label">
+              <label for="as_epq">this exact word or phrase:</label>
+            </td>
+            <td class="advanced-input">
+              <input type="text" name="as_epq" id="as_epq" />
+            </td>
+            <td class="advanced-hint">
+              Put exact words in quotes:
+              <span>"rat terrier"</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="advanced-label">
+              <label for="as_oq">any of these words:</label>
+            </td>
+            <td class="advanced-input">
+              <input type="text" name="as_oq" id="as_oq" />
+            </td>
+            <td class="advanced-hint">
+              Type <span>OR</span> between all the words you want:
+              <span>miniature OR standard</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="advanced-label">
+              <label for="as_eq">none of these words:</label>
+            </td>
+            <td class="advanced-input">
+              <input type="text" name="as_eq" id="as_eq" />
+            </td>
+            <td class="advanced-hint">
+              Put a minus sign just before words that you don't want:
+              <span>-rodent, -"Jack Russell"</span>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">
+              <input class="advanced-submit-btn" value="Advanced Search" type="submit">
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
