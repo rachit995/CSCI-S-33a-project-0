@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Image Search</title>
-  <link rel="stylesheet" href="/assets/styles/styles.css">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-  <div class="container">
-    <nav class="nav-container">
-      <div>
+  <head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-container">
+        <div></div>
+        <div>
+          <a href="index.html">Search</a>
+          <a href="advanced.html">Advanced</a>
+        </div>
+      </nav>
+      <div class="logo-container">
+        <div class="image-container">
+          <img src="assets/images/image-logo.png"
+               alt="Google Logo"
+               height="92"
+               width="272">
+        </div>
       </div>
-      <div>
-        <a href="/index.html">Search</a>
-        <a href="/advanced.html">Advanced</a>
-      </div>
-    </nav>
-
-    <div class="logo-container">
-      <div class="image-container">
-        <img src="/assets/images/image-logo.png" alt="Google Logo" height="92" width="272">
-      </div>
-    </div>
-    <form action="https://google.com/search" class="form-container" method="GET">
-      <div class="search-container">
-        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="input-icon">
-          <path
-            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-          </path>
-        </svg>
-        <input type="text" name="q" class="search">
-        <button type="submit" value="Google Search" class="image-submit-btn">
-          <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="submit-icon">
-            <path
-              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+      <form action="https://google.com/search"
+            class="form-container"
+            method="GET">
+        <div class="search-container">
+          <svg focusable="false"
+               xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 24 24"
+               class="input-icon">
+            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
             </path>
           </svg>
-        </button>
-      </div>
-      <input type="hidden" name="tbm" value="isch" hidden />
-    </form>
-
-  </div>
-
-</body>
-
+          <input type="text" name="q" class="search">
+          <button type="submit" value="Google Search" class="image-submit-btn">
+            <svg focusable="false"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 24 24"
+                 class="submit-icon">
+              <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+              </path>
+            </svg>
+          </button>
+        </div>
+        <input type="hidden" name="tbm" value="isch" hidden />
+      </form>
+    </div>
+  </body>
 </html>
